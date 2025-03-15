@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        @keyframes example {
+        10%   {background-image: url("img/anim/2.png");background-size: 500px;background-repeat: no-repeat;}
+        25%   {background-image: url("img/anim/3.png");   background-size: 500px;           background-repeat: no-repeat;
+    }
+        50%   {background-image: url("img/anim/4.png");    background-size: 500px;          background-repeat: no-repeat;
+    }
+        100%   {background-image: url("img/anim/5.png");   background-size: 500px;           background-repeat: no-repeat;
+    }
+       
+        }
+
+            #box{
+                width: 500px;
+                height: 500px;
+                background-size: 500px;
+              background-image: url("img/anim/1.png");
+              background-repeat: no-repeat;
+                position: relative;
+                animation-name: example;
+                animation-delay: 0.5s;
+                animation-duration: 3s;
+                animation-iteration-count: infinite;
+        }
+         
+            
+    </style>
+</head>
+<body>
+    <div id="box">
+
+    </div>
+</body>
+</html>

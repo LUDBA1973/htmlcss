@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: lightskyblue; 
+        }
+        .aa{
+            background-color: rgb(240, 243, 69);
+            width: 100%;
+            height: 300px;
+            position: relative;
+            top: 650px;
+        }
+        .bb{
+            background-color: rgb(190, 20, 190);
+            width: 150px;
+            height: 150px;
+            border: 1px solid black;
+            border-radius: 150px;
+            position: relative;
+            animation-name: example;
+            animation-duration: 2s;
+            animation-delay: 2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+
+        @keyframes example {
+        0%   { top:0px;}
+        25%  {top:100px;}
+        50%  {top:200px;}
+        75% { top:-100px;}
+        100% { top:0px;}
+        }
+    </style>
+</head>
+<body>
+    <div class="aa">
+    </div>
+   
+    <center><div class="bb"></div></center>
+    
+</body>
+</html>

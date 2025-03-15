@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .out{
+            background-color: skyblue;
+        }
+
+        .gg{
+            background-color: white;
+            padding: 30px;
+            border: 50px solid skyblue;
+        }
+       #but {
+            background-color: #2d3d2d;
+            color: white;
+            padding: 10px;
+            border: black 2px solid;
+            cursor: pointer;
+            width: 150px;
+            
+        }
+
+        .main{
+            clear: both;
+            }
+
+        .lab{
+            float: left;
+            width: 50%;
+            margin-top: 20px;
+            text-align: end;
+            }
+
+            .inp{
+            float: left;
+            width: 50%;
+            margin-top:20px;
+            }
+
+        
+        label {
+        padding: 12px 12px 12px 0;
+        display: inline-block;
+        }
+
+        input{
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+             }
+
+
+    </style>
+</head>
+<body>
+ <div class="out">
+    <h1 style="text-align: center;">SURVEY FORM</h1>
+       <div class="gg">
+        <h3 style="text-transform: capitalize; text-align: center;">Let us know How We can Improve our freecodecamp</h3><br>
+
+        <div class="main">
+            <div class="lab">
+                <label>NAME:</label>
+            </div>
+            <div class="inp">
+                <input type="text" required placeholder="Enter Your Name">
+            </div>
+        </div>
+       
+        
+        <div class="main">
+            <div class="lab">
+                <label>EMAIL:</label>            </div>
+            <div class="inp">
+                <input type="text" required placeholder="Enter Your Email"></div>
+        </div>
+      
+        <div class="main">
+            <div class="lab">
+                <label>AGE:</label>   </div>
+            <div class="inp">
+                <input type="tel" required placeholder="Enter Your Age"></div>
+        </div>
+
+        
+        <div class="main">
+            <div class="lab">
+                <label >Which Option best describes your current role? </label>
+             </div>
+            <div class="inp">
+                <select style="background-color: gray; height: 40px; width: 100px; border-radius: 12px;">
+                    <option>Student</option>
+                    <option>Employee</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="lab">
+                <label>How likely is that you would recommend freecodecamp to a friend?</label>  </div>
+            <div class="inp">
+                <input type="radio" name="3">Definitely <br>
+                <input type="radio" name="3">Maybe <br>
+                <input type="radio" name="3">Not sure             </div>
+        </div>
+
+        <div class="main">
+            <div class="lab">
+                <label >What do you like the most in FCC? </label>
+             </div>
+            <div class="inp">
+                <select style="background-color: gray; height: 40px; width: 120px;border-radius: 12px;">
+                    <option>Select Option</option>
+                    <option></option>
+                </select>
+            </div>
+        </div>
+
+
+        <div class="main">
+            <div class="lab">
+                <label>Things that should be improved in the future :</label>
+             </div>
+            <div class="inp">
+                <input type="checkbox" name="3">Front-end projects <br>
+                <input type="checkbox" name="3"> Back-end Projects <br>
+                <input type="checkbox" name="3"> Data validation
+            </div>
+        </div>
+      
+       <center> <div style="margin-top: 100px;">
+            <input type="submit" value="SUBMIT ORDER" id="but"> 
+            <input type="reset" value="RESET" id="but">
+       </div></center>
+       
+       
+    </div>
+</body>
+</html>

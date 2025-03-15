@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       #c{
+            display: grid;
+             grid-template-areas:"c1 c2 c2 c2 c2"
+                                    "c1 c3 c3 c3 c4 "
+                                    "c1 c3 c3 c3 c4 "
+                                    "c1 c3 c3 c3 c4 "
+                                    "c1 c3 c3 c3 c4 "
+                                    " c1 c5 c5 c5 c5" ;
+            background-color: aquamarine;
+            gap: 10px;
+        }
+
+        div{
+            border: 1px solid black;
+        }
+
+        #c1{
+            grid-area: c1;
+        }
+        #c2{
+            grid-area: c2;
+        }
+        #c3{
+            grid-area: c3;
+        }
+        #c4{
+            grid-area: c4;
+        }
+        #c5{
+            grid-area: c5;
+        }
+
+        .c41{
+            display: grid;
+            grid-template-rows: 400px 800px 400px ;
+            gap: 20px;
+        }
+        
+
+       
+    </style>
+    
+</head>
+<body>
+    <div id="c">
+    <div id="c1">
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam facere asperiores eum iure autem? Deleniti adipisci itaque soluta non enim sed modi. At eveniet eum veniam, ducimus animi adipisci molestias?</p>
+    </div>
+    <div id="c2">
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati aut cupiditate repudiandae rerum, placeat modi? Eligendi, molestiae, delectus autem vel dolorum veritatis asperiores ea quos itaque quo enim? Itaque, eaque?</p>
+    </div>
+    <div id="c3">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam facere asperiores eum iure autem? Deleniti adipisci itaque soluta non enim sed modi. At eveniet eum veniam, ducimus animi adipisci molestias?</p>
+
+    </div>
+    <div id="c4">
+        <div class="c41">
+        <div id="c4a"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, numquam, ipsum doloribus blanditiis quidem voluptas perferendis quos consequuntur, dolor illo quasi fugit porro delectus vitae ducimus praesentium maxime repellendus amet.</p></div>
+        <div id="c4b"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente sint nisi ipsa cupiditate et enim, similique reiciendis beatae debitis, eligendi ea, nemo repellendus voluptatibus hic vero excepturi quas ratione corporis.</p></div>
+        <div id="c4c"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et corrupti eligendi reiciendis dolorum rerum quod. Animi illum nulla odit id similique culpa voluptatem perspiciatis. Vero maiores deserunt dolor excepturi aspernatur.</p></div>
+    </div>
+
+    </div>
+    <div id="c5">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam facere asperiores eum iure autem? Deleniti adipisci itaque soluta non enim sed modi. At eveniet eum veniam, ducimus animi adipisci molestias?</p>
+
+    </div>
+</div>
+</body>
+</html>
